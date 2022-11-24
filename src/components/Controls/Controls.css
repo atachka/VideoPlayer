@@ -1,0 +1,64 @@
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.timeline {
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.timeline-progress {
+  background-color: red;
+  height: 100%;
+  transition: 0.4s;
+  pointer-events: none;
+}
+
+.controls-items {
+  display: flex;
+  align-items: center;
+  background-color: tomato;
+  height: 35px;
+  padding: 0 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.controls-item {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #f7eaea;
+  display: flex;
+  align-items: center;
+}
+
+.controls-item-time {
+  color: #433b3b;
+  font-size: 12px;
+  margin-left: 12px;
+  pointer-events: none;
+}
+
+.player-zoom {
+  display: flex;
+  margin-top: 5px;
+}
+
+.player-zoom-item {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #673ab7;
+}
+
+.input-container {
+  margin-left: auto;
+}
